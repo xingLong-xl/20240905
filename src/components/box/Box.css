@@ -1,0 +1,36 @@
+.custom-box {
+    display: flex;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-image: radial-gradient(circle, white, black); 
+    border-radius: 20px; 
+    border: 3px solid rgba(255, 255, 255, 0.87);
+    min-width: 200px;
+  }
+
+  .custom-box-layout{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .custom-box-number {
+    font-size: 18px; 
+    color: white; 
+  }
+
+  .custom-box-status {
+    font-size: 12px; 
+    color: black;
+    background-color: white;
+    border-radius: 25px; 
+    min-width: 180px;
+    height: 50px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+  }
